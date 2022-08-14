@@ -1,7 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
-/* fonts */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/* fonts and navigation bar */
 
 h1, h2 {
     font-family: "Raleway", sans-serif;
+}
+
+#logo {
+    font-size: 300%;
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 2px;
+}
+
+#nav-bar {
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+
+#nav-bar li {
+    display: inline-block;
+    margin: 10px 50px;
+    list-style-type: none;
 }
