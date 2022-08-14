@@ -9,6 +9,8 @@
 
 h1, h2 {
     font-family: "Raleway", sans-serif;
+    
+    
 }
 
 #logo {
@@ -16,6 +18,8 @@ h1, h2 {
     text-align: center;
     margin: 50px;
     letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
 }
 
 #nav-bar {
@@ -23,11 +27,18 @@ h1, h2 {
     font-size: 120%;
     letter-spacing: 2px;
     width: 100%;
+    
 }
-
 
 #nav-bar li {
     display: inline-block;
     margin: 10px 50px;
     list-style-type: none;
+    color: black;
+}
+
+/* Section with text and background */
+
+.bg-color {
+    background-color: grey;
 }
